@@ -1,0 +1,31 @@
+{
+  "source_name": "BetProof South Africa Casino Bonuses",
+  "generated_at_utc": "2026-10-16T23:04:20.394659+00:00",
+  "count": 3,
+  "casinos": [
+    {
+      "casino": "Hollywoodbets Play",
+      "welcome_bonus": "R25 sign-up + 50 free spins",
+      "wagering_requirement": 10,
+      "minimum_deposit": "R10",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "bonus_terms_original": "Casino: Hollywoodbets Play. Welcome bonus: R25 sign-up + 50 free spins. Wagering requirement: 1x sports / 10x spins. Minimum deposit: R10."
+    },
+    {
+      "casino": "Betway South Africa Play",
+      "welcome_bonus": "R1,000 sports (3x) + R2,000 casino (30x)",
+      "wagering_requirement": 30,
+      "minimum_deposit": "R5",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "bonus_terms_original": "Casino: Betway South Africa Play. Welcome bonus: R1,000 sports (3x) + R2,000 casino (30x). Wagering requirement: 3x sports / 30x casino. Minimum deposit: R5."
+    },
+    {
+      "casino": "Gbets",
+      "welcome_bonus": "R50 free bet + 50 free spins",
+      "wagering_requirement": null,
+      "minimum_deposit": "R20",
+      "source_url": "https://betproof.co.za/casino-bonuses-south-africa/",
+      "bonus_terms_original": "Casino: Gbets. Welcome bonus: R50 free bet + 50 free spins. Wagering requirement: 3x free bet / 30x deposit match. Minimum deposit: R20."
+    }
+  ]
+}

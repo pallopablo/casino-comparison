@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Casino bonus comparison generated from structured scraper data."
+    >
+
+    <title>Casino Bonus Comparison</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                BONUS RESEARCH • SOURCE-LINKED
+            </p>
+
+            <h1>
+                Casino Bonus Comparison
+            </h1>
+
+            <p class="hero-description">
+                Compare welcome offers and key terms in one
+                place. Always read the original terms before
+                making a decision.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         MAIN CONTENT
+    ========================================== -->
+
+    <main class="container">
+
+        <!-- Disclaimer -->
+
+        <section
+            class="notice"
+            aria-label="Important information"
+        >
+
+            <p>
+                <strong>Important:</strong>
+                Offers and terms can change. This page is
+                for informational purposes only, not
+                financial advice or an endorsement of
+                gambling.
+            </p>
+
+        </section>
+
+
+        <!-- Comparison Section -->
+
+        <section
+            class="comparison-section"
+            aria-labelledby="comparison-title"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-label">
+                        LATEST DATA
+                    </p>
+
+                    <h2 id="comparison-title">
+                        Compare offers
+                    </h2>
+
+                </div>
+
+                <p
+                    id="offer-count"
+                    class="offer-count"
+                    aria-live="polite"
+                >
+                    Loading offers...
+                </p>
+
+            </div>
+
+
+            <!-- Error messages -->
+
+            <div
+                id="error-message"
+                class="error hidden"
+                role="alert"
+            ></div>
+
+
+            <!-- Loading message -->
+
+            <div
+                id="loading"
+                class="loading"
+            >
+                Loading casino data...
+            </div>
+
+
+            <!-- Table -->
+
+            <div
+                id="table-wrapper"
+                class="table-wrapper hidden"
+            >
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th scope="col">
+                                Casino
+                            </th>
+
+                            <th scope="col">
+                                Welcome Bonus
+                            </th>
+
+                            <th scope="col">
+                                Wagering Requirement
+                            </th>
+
+                            <th scope="col">
+                                Minimum Deposit
+                            </th>
+
+                            <th scope="col">
+                                Source URL
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="casino-table-body">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- Data information -->
+
+            <div
+                id="data-meta"
+                class="data-meta hidden"
+            >
+
+                <p>
+                    <strong>Source:</strong>
+                    <span id="source-name">
+                        —
+                    </span>
+                </p>
+
+                <p>
+                    <strong>Last generated:</strong>
+                    <span id="generated-date">
+                        —
+                    </span>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <p>
+                Casino Bonus Comparison
+            </p>
+
+            <p>
+                Data is automatically generated from
+                publicly available source information.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>
