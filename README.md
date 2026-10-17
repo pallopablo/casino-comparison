@@ -4,7 +4,7 @@ A small technical assessment project that automatically scrapes three casino bon
 
 ## Live Website
 
-The live deployment URL will be added here after deployment.
+https://pallopablo.github.io/casino-comparison/
 
 ## Features
 
